@@ -2,6 +2,7 @@
 
 import TariLogo from '../TariLogo/TariLogo';
 import SocialLinks from './components/SocialLinks/SocialLinks';
+import NewLoreBadge from './components/NewLoreBadge/NewLoreBadge';
 
 import {
     Wrapper,
@@ -95,6 +96,7 @@ export default function Footer() {
                                 <Link href="/user_agreement">User Agreement</Link>
                             </LegalLinks>
                         </Copyright>
+                        <NewLoreBadge />
                         <SocialLinks />
                     </BottomWrapper>
                 </Middle>
